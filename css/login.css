@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.log_head{
+    text-align: center;
+    margin: 70px 0;
+}
+
+.log_head h3{
+    color: green;
+    font-size: 20px;
+}
+
+.login_container{
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+form{
+    /* border: 1px solid black; */
+    width: 30%;
+    padding: 10px 40px;
+    background-color: rgb(202, 244, 255);
+    border-radius: 20px 20px 0 0;
+}
+
+.l_img{
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid black; */
+    margin-top: -60px;
+    background-color: transparent;
+}
+
+.f_header{
+    text-align: center;
+    font-size: 2rem;
+    padding: 20px 0;
+    font-weight: bold;
+    color: gray;
+}
+
+.l_img img{
+    z-index: 1;
+    width: 100px;
+    /* border: 1px solid black; */
+}
+
+.l_input{
+    width: 100%;
+}
+
+.l_input input{
+    border: 1px solid rgb(127, 150, 255);
+    border-radius: 5px;
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    outline: none;
+}
+
+.l_btn{
+    text-align: center;
+}
+
+.l_btn button{
+    padding: 10px 20px;
+    border: 1px solid rgb(127, 150, 255);
+    border-radius: 10px;
+    background-color: rgb(127, 150, 255);
+    color: white;
+    margin: 10px 0;
+}
+
+.ff{
+    /* border: 1px solid black; */
+    width: 30%;
+    padding: 10px;
+    text-align: center;
+    background-color: rgb(214, 214, 214);
+    color: rgb(87, 87, 87);
+    border-radius:0 0 20px 20px;
+}
+
+.ff_d{
+    padding: 5px;
+}
+
+.ff_d a{
+    color: rgb(1, 1, 160);
+}
+
+.l_btn button:hover{
+    background-color: rgb(100, 122, 247);
+    cursor: pointer;
+}
