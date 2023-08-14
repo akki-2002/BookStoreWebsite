@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/cart.css">
+    <link rel="stylesheet" href="css/cat_csbs.css">
+
+    <script language="javascript" type="text/javascript" src="js/cart.js"></script>
+</head>
+
+<body>
+    <div class="header">
+        <div class="logo">
+            <a href="index.html"><img src="Images/logo.jpg" alt=""></a>
+        </div>
+        <div class="heading">BOOK STORE</div>
+        
+    </div>
+    <div class="navbar">
+        <div class="nav_ele">
+            <div class="ele"><a href="index.html">Home</a></div>
+            <div class="ele"><a href="cat_csbs.html">Catalogue</a></div>
+            <div class="ele sel"><a href="#">Cart</a></div>
+        </div>
+        <div class="ls_btn">
+            <a href="login.php"><button>Login/SignUp</button></a>
+        </div>
+    </div> 
+    <div class="cart_container">
+        <table id="table">
+            <tr>
+                <th>Book Name</th>
+                <th>Price</th>
+                <th>Quantity</th>
+                <th>Amount</th>
+            </tr>
+           <!-- CSBS -->
+
+           <tr>
+            <td style="font-weight: bold;">CSBS</td>
+           </tr>
+
+            <tr >
+                <td id="bn1" name="book_name">Book Name: Artificial Intelligence <br> Author: Sumita Arora</td>
+                <td id="p1" name="price">494.00</td>  
+                <td>
+                    Quantity: <input type="number" id="q1" name="quantity"><br>
+                    <button id="atc1">Add to Cart</button>
+                </td>
+                <td id="amt1"></td>
+            </tr>
+
+            <tr >
+                <td id="bn2" name="book_name">Book Name: Computer Networks <br> Author: Bhavneet Sidhu</td>
+                <td id="p2" name="price">299.00</td>  
+                <td>
+                    Quantity: <input type="number" id="q2" name="quantity"><br>
+                    <button id="atc2">Add to Cart</button>
+                </td>
+                <td id="amt2"></td>
+            </tr>
+
+            <tr >
+                <td id="bn3" name="book_name">Book Name: Database Management Systems <br> Author: Dr. Rajiv Chopra</td>
+                <td id="p3" name="price">449.00</td>  
+                <td>
+                    Quantity: <input type="number" id="q3" name="quantity"><br>
+                    <button id="atc3">Add to Cart</button>
+                </td>
+                <td id="amt3"></td>
+            </tr>
+
+            <tr >
+                <td id="bn4" name="book_name">Book Name: Machine Learning <br> Author: Chris Sebastian</td>
+                <td id="p4" name="price">210.00</td>  
+                <td>
+                    Quantity: <input type="number" id="q4" name="quantity"><br>
+                    <button id="atc4">Add to Cart</button>
+                </td>
+                <td id="amt4"></td>
+            </tr>
+
+            <!-- CSE -->
+            <tr>
+                <td style="font-weight: bold;">CSE</td>
+               </tr>
+    
+                <tr >
+                    <td id="bn5" name="book_name">Book Name: Computer Science C++ <br> Author: Sumita Arora</td>
+                    <td id="p5" name="price">494.00</td>  
+                    <td>
+                        Quantity: <input type="number" id="q5" name="quantity"><br>
+                        <button id="atc5">Add to Cart</button>
+                    </td>
+                    <td id="amt5"></td>
+                </tr>
+    
+                <tr >
+                    <td id="bn6" name="book_name">Book Name: Computer Science <br> Author: Richard Morgan</td>
+                    <td id="p6" name="price">299.00</td>  
+                    <td>
+                        Quantity: <input type="number" id="q6" name="quantity"><br>
+                        <button id="atc6">Add to Cart</button>
+                    </td>
+                    <td id="amt6"></td>
+                </tr>
+    
+                <tr >
+                    <td id="bn7" name="book_name">Book Name: Essentials of Computer Science <br> Author: Neeraj Kumar Singh</td>
+                    <td id="p7" name="price">449.00</td>  
+                    <td>
+                        Quantity: <input type="number" id="q7" name="quantity"><br>
+                        <button id="atc7">Add to Cart</button>
+                    </td>
+                    <td id="amt7"></td>
+                </tr>
+    
+                <tr >
+                    <td id="bn8" name="book_name">Book Name: Computer Science with Python <br> Author: Dr. Jayant Sharma</td>
+                    <td id="p8" name="price">210.00</td>  
+                    <td>
+                        Quantity: <input type="number" id="q8" name="quantity"><br>
+                        <button id="atc8">Add to Cart</button>
+                    </td>
+                    <td id="amt8"></td>
+                </tr>
+
+                <!-- IT -->
+                <tr>
+                    <td style="font-weight: bold;">IT</td>
+                </tr>
+        
+                <tr >
+                        <td id="bn9" name="book_name">Book Name: Introduction to Algorithms <br> Author: Thomas H. Cormen</td>
+                        <td id="p9" name="price">494.00</td>  
+                        <td>
+                            Quantity: <input type="number" id="q9" name="quantity"><br>
+                            <button id="atc9">Add to Cart</button>
+                        </td>
+                        <td id="amt9"></td>
+                </tr>
+        
+                <tr >
+                        <td id="bn10" name="book_name">Book Name: Android Application Development with Kotlin <br> Author: Hardik Trivedi</td>
+                        <td id="p10" name="price">299.00</td>  
+                        <td>
+                            Quantity: <input type="number" id="q10" name="quantity"><br>
+                            <button id="atc10">Add to Cart</button>
+                        </td>
+                        <td id="amt10"></td>
+                </tr>
+        
+                <tr >
+                        <td id="bn11" name="book_name">Book Name: Java Programming <br> Author: Surbhi Kakar</td>
+                        <td id="p11" name="price">449.00</td>  
+                        <td>
+                            Quantity: <input type="number" id="q11" name="quantity"><br>
+                            <button id="atc11">Add to Cart</button>
+                        </td>
+                        <td id="amt11"></td>
+                </tr>
+        
+                <tr >
+                        <td id="bn12" name="book_name">Book Name: Web Design <br> Author: Wendy Willard</td>
+                        <td id="p12" name="price">210.00</td>  
+                        <td>
+                            Quantity: <input type="number" id="q12" name="quantity"><br>
+                            <button id="atc12">Add to Cart</button>
+                        </td>
+                        <td id="amt12"></td>
+                </tr>
+
+
+                <!-- AIML -->
+                <tr>
+                    <td style="font-weight: bold;">AIMl</td>
+                </tr>
+        
+                <tr >
+                        <td id="bn13" name="book_name">Book Name: Artificial Intelligence Skills <br> Author: Chris Baker</td>
+                        <td id="p13" name="price">494.00</td>  
+                        <td>
+                            Quantity: <input type="number" id="q13" name="quantity"><br>
+                            <button id="atc13">Add to Cart</button>
+                        </td>
+                        <td id="amt13"></td>
+                </tr>
+        
+                <tr >
+                        <td id="bn14" name="book_name">Book Name: Data Science for Beginners <br> Author: Leonard Deep</td>
+                        <td id="p14" name="price">299.00</td>  
+                        <td>
+                            Quantity: <input type="number" id="q14" name="quantity"><br>
+                            <button id="atc14">Add to Cart</button>
+                        </td>
+                        <td id="amt14"></td>
+                </tr>
+        
+                <tr >
+                        <td id="bn15" name="book_name">Book Name: Human + Machine <br> Author: Paul R. Daugherty</td>
+                        <td id="p15" name="price">449.00</td>  
+                        <td>
+                            Quantity: <input type="number" id="q15" name="quantity"><br>
+                            <button id="atc15">Add to Cart</button>
+                        </td>
+                        <td id="amt15"></td>
+                </tr>
+        
+                <tr >
+                        <td id="bn16" name="book_name">Book Name: Big Data <br> Author: Phil Simon</td>
+                        <td id="p16" name="price">210.00</td>  
+                        <td>
+                            Quantity: <input type="number" id="q16" name="quantity"><br>
+                            <button id="atc16">Add to Cart</button>
+                        </td>
+                        <td id="amt16"></td>
+                </tr>
+            
+        </table>
+        <div class="tam">
+            Total Amount : <div id="tm"></div>
+        </div>
+        
+    </div>
+
+    <script src="js/cart.js"></script>
+</body>
+</html>
