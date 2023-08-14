@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/cat_csbs.css">
+
+    <!-- <script language="javascript" type="text/javascript" src="js/cart.js"></script> -->
+</head>
+<body>
+    <div class="header">
+        <div class="logo">
+            <a href="index.html"><img src="Images/logo.jpg" alt=""></a>
+        </div>
+        <div class="heading">BOOK STORE</div>
+        
+    </div>
+    <div class="navbar">
+        <div class="nav_ele">
+            <div class="ele"><a href="index.html">Home</a></div>
+            <div class="ele sel"><a href="#">Catalogue</a></div>
+            <div class="ele"><a href="cart.html">Cart</a></div>
+        </div>
+        <div class="ls_btn">
+            <a href="login.php"><button>Login/SignUp</button></a>
+        </div>
+    </div> 
+    <div class="home_container">
+        <div class="branches">
+            <div class="b sel"><a href="#">CSBS</a></div>
+            <div class="b"><a href="cat_cse.html">CSE</a></div>
+            <div class="b"><a href="cat_it.html">IT</a></div>
+            <div class="b"><a href="cat_aiml.html">AI/ML</a></div>
+        </div>
+        <div class="csbs_cat">
+                <table>
+                    <tr>
+                        <th>Cover Page</th>
+                        <th>Book Details</th>
+                        <th>Book Price</th>
+                        <th>Cart</th>
+                    </tr>
+                        <tr>
+                            <td><img src="Images/csbs_cat/ai.jpg" alt=""></td>
+                            <td id="bn1" name="book_name">Book Name: Artificial Intelligence <br> Author: Sumita Arora</td>
+                            <td id="p1" name="price">494.00</td>  
+                            <td>
+                                Quantity: <input type="number" id="q1" name="quantity"><br>
+                                <button>Add to Cart</button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><img src="Images/csbs_cat/cn.jpg" alt=""></td>
+                            <td>Book Name: Computer Networks <br> Author: Bhavneet Sidhu</td>
+                            <td>299.00</td>
+                            <td>
+                                Quantity: <input type="number"><br>
+                                <button>Add to Cart</button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><img src="Images/csbs_cat/dbms.jpg" alt=""></td>
+                            <td>Book Name: Database Management Systems <br> Author: Dr. Rajiv Chopra</td>
+                            <td>449.00</td>
+                            <td>
+                                Quantity: <input type="number"><br>
+                                <button>Add to Cart</button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><img src="Images/csbs_cat/ml.jpg" alt=""></td>
+                            <td>Book Name: Machine Learning <br> Author: Chris Sebastian</td>
+                            <td>210.00</td>
+                            <td>
+                                Quantity: <input type="number"><br>
+                                <button>Add to Cart</button>
+                            </td>
+                        </tr>
+                </table>
+        </div>
+    </div>
+
+    <!-- <script src="js/cart.js"></script> -->
+</body>
+</html>
